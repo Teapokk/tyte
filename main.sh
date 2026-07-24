@@ -2,12 +2,9 @@
 # tyte - minimal terminal text editor for Termux/Bash
 # Usage: tyte <filename>
 
-pkill -f "main.sh" 2>/dev/null
-pkill -f "tyte" 2>/dev/null
-
 sleep 1
 
-echo "Accessing GitHub run..."
+echo "Accessing GitHub Raw..."
 sleep 0.5
 
 echo "Accessing Teapokk's GitHub repository..."
@@ -138,3 +135,5 @@ tyte() {
 
   # trap handles cleanup/restore automatically
 }
+
+tyte "$1"
