@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # tyte - minimal terminal text editor for Termux/Bash
 # Usage: tyte <filename>
+
+pkill -f "main.sh" 2>/dev/null
+pkill -f "tyte" 2>/dev/null
+
 sleep 1
 
 echo "Accessing GitHub run..."
