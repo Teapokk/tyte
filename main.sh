@@ -1,7 +1,41 @@
 #!/usr/bin/env bash
 # tyte - minimal terminal text editor for Termux/Bash
 # Usage: tyte <filename>
-echo("Made by Tytedev")
+sleep 1
+
+echo "Accessing GitHub run..."
+sleep 0.5
+
+echo "Accessing Teapokk's GitHub repository..."
+sleep 0.8
+
+echo "Accessing GitHub API... 10%"
+sleep 0.4
+
+echo "Accessing GitHub API... 30%"
+sleep 0.6
+
+echo "Accessing GitHub API... 60%"
+sleep 0.5
+
+echo "Accessing GitHub API... 100%"
+sleep 0.3
+
+echo "Downloading dependencies and base packages..."
+sleep 0.7
+
+echo "Copying tyte files..."
+sleep 0.5
+
+echo "Decrypting local files..."
+sleep 0.9
+
+echo "Preparing to execute..."
+sleep 0.4
+
+echo "[+] Installation complete! Starting tyte..."
+sleep 1
+echo "Made by Tytedev"
 
 tyte() {
   local file="$1"
