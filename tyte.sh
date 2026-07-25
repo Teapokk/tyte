@@ -5,7 +5,9 @@
 # Features: Line deletion, scrolling, syntax highlighting, auto-update, cache management
 
 set -o pipefail
-
+echo "Made by Dawvy"
+sleep 2
+echo "Installation completed successfully."
 # ============================================================================
 # CONFIGURATION & CONSTANTS
 # ============================================================================
